@@ -27,7 +27,7 @@
     background: none;
     color: white;
     font-size: 16px;
-    opacity: 70%;
+    /* opacity: 70%; */
     width: auto;
     cursor: pointer;
 }
@@ -44,12 +44,12 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1600px) {
     .search-container {
         backdrop-filter: none;
         gap: 16px;
-        margin-left: 10px;
-        margin-right: 10px;
+        /* margin-left: 10px;
+        margin-right: 10px; */
         margin-top: 25px;
     }
     .search-container .input-container{
@@ -68,4 +68,9 @@
     }
   }
 
-
+  @media only screen and (max-width: 900px){
+    .search-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
