@@ -1,9 +1,9 @@
-@import url('/css/menu.css');
-@import url('/css/slider-container.css');
-@import url('/css/search-container.css');
-@import url('/css/top-categories.css');
-@import url('/css/container-carrusel.css');
-@import url('/css/cards-container.css');
+@import url('./menu.css');
+@import url('./slider-container.css');
+@import url('./search-container.css');
+@import url('./top-categories.css');
+@import url('./container-carrusel.css');
+@import url('./cards-container.css');
 
 
 :root{
