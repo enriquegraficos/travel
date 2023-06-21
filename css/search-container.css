@@ -33,6 +33,10 @@
 }
 
 
+.search-container .input-container input::placeholder {
+    color: white;
+}
+
 .search-container .input-container #btn-search{
     width: 147px;
     height: 42px;
